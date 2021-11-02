@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Oldbookstore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+    
+      <label class="logo">BOOKS</label>
+      <ul>
+ 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Buyer</a></li>
+        <li><a href="#">Seller</a></li>
+         
+      </ul>
+    </nav>
+    <form>
+        <ul class="form-style-1">
+            <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First name" /> <input type="text" name="field2" class="field-divided" placeholder="Last name" /></li>
+            <li><label>Facebook id <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Name" /> </li>
+            
+            <li>
+                <label>Contact no <span class="required">*</span></label>
+                <input type="email" name="field3" class="field-long" placeholder="+880" />
+            </li>
+            <li><label>Book & author Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Name of the book" /> <input type="text" name="field2" class="field-divided" placeholder="author name" /></li>
+            <li>
+                <label>GENRE</label>
+                <select name="field4" class="field-select">
+                <option value="Adventure">Adventure</option>
+                <option value="Scientific">Scientific</option>
+                <option value="Novel">Novel</option>
+                </select>
+            </li>
+            <li>
+                <label>Details <span class="required">*</span></label>
+                <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+            </li>
+            <li>
+                <input type="submit" value="Submit" />
+            </li>
+        </ul>
+        </form>
+
+  </body>
+</html>
